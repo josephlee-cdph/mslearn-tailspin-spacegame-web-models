@@ -39,7 +39,7 @@ steps:
 - task: NuGetAuthenticate@0
   displayName: 'NuGet Authenticate'
   inputs:
-    nuGetServiceConnections: 'josephlee-cdph'
+    nuGetServiceConnections: 'NuGetPkg'
 - task: NuGetCommand@2
   displayName: 'Publish NuGet package'
   inputs:
